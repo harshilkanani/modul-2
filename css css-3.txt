@@ -1,0 +1,115 @@
+                      Module (CSS and CSS 3) -2
+
+
+Q-1 What is the benefit of using CSS?
+Ans: - Easier to maintain and update
+- Greater consistency in design
+- More formatting options
+- compability across devices
+- Lightweight code
+- Faster download times
+- Search engine optimization benefits
+- Ease of presenting different styles to different viewers
+- Greater accessibility
+- Quicker development time
+
+Q-2 What is the disadvantage of CSS?
+Ans: - Confusion due to many CSS version.
+- Cross-Browser issue
+- Limited Security
+- Extra work of developer
+- After making the changes we need to confirm the compability if they          appear. The similar change effects on all the browsers.
+- There might be cross-browsers issues while using CSS. 
+
+Q-3 What is the different between CSS2 and CSS3?
+Ans: - CSS2:
+Css2 released in 1998.
+Single document
+More than CSS
+Web-safe fonts
+Simple selectors
+
+Css3:
+Css3 released in 1999.
+Divided into individual modules
+Large, along with the support for animations
+Special fonts analogous to google fonts and typecast
+A sequence of simple selectors
+ 
+                              
+Q-4 Name a few CSS style Components
+Ans: - Selector: class name, id name or element name that is target
+Attribute: name of the attribute you want to style for example border, color, background, position etc.
+Value of Property: value that will be assigned to attribute.
+
+Q-5 What do you understand by CSS opacity?
+Ans: - The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+
+Q-6 How can the background color of an element be changed?
+Ans: - element {
+background-color: #DBF9FC;
+}
+
+Q-7 How can the image repetition of the backup be controlled?
+Ans: - This task can be achieved by using the background-repeat property that will help us to control the repetition of the image. The background-repeat property in CSS is used to repeat the background image both horizontally and vertically.
+
+Q-8 What is the used of the background-position properties?
+Ans: - The background-position property in CSS is mainly used to sets the initial position for the background image ie., it is used to set an image at a certain position.
+	e.g., Syntax – background-position: value;
+
+Q-9 Which properties controls the image scroll in the background?
+Ans: - The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+Syntax: - 
+	background-attachment: scroll / fixed / local / initial / inherit;
+
+
+Q-10 Why should background and color be used as separate properties?
+Ans: - It enhances the legibility of style sheets. 
+
+
+- The background property is a complex property in CSS, and if it is combined with color, the complexity will further increase.
+Q-11 How to center block elements using CSS1?
+Ans: - P {
+ margin-left: auto; 
+ margin-right: auto;
+}
+
+
+Q-12 Who to maintain the CSS specifications?
+Ans: - The CSS specifications are maintained by the World Wide Web Consortium (W3C).
+Q-13 What are the ways to integrate CSS as a web page?
+Ans: - CSS can be added to HTML documents in 3 ways: 
+- Inline - by using the style attribute inside HTML elements. 
+- Internal - by using a <style> element in the <head> section. 
+- External - by using a <link> element to link to an external CSS file.
+Q-14 	What is embedded style sheets?
+Ans: - Embedded Stylesheet: It allows you to define styles for a particular HTML document as a whole in one place. This is done by embedding the <style></style> tags containing the CSS properties in the head of your document.
+Embedded style sheets are particularly useful of HTML documents that have unique style requirements from the rest of the documents in your project.
+
+Q-15 What are the external style sheet?
+Ans: - An external style sheet is a separate file with a CSS extension with all CSS style definitions for the HTML page(s). You can reference this file in the <link> tag inside the <head> in the HTML. 
+Multiple webpages can use the same link to access the stylesheet.
+The link to an external style sheet is placed within the head section of the page.
+
+Q-16 What are the advantages and disadvantages of using external style sheets?
+Ans: - The advantages of External Style Sheets are as follows:
+- With the help of External Style Sheets, the styles of numerous documents can be organized from one single file.
+- In External Style Sheets, Classes can be made for use on numerous HTML element types in many forms of the site.
+-In complex contexts, Methods like selector and grouping can be implemented to apply styles.
+
+The disadvantages of External Style Sheets are as follows:
+- An extra download is essential to import style information for each file.
+- The execution of the file may be deferred till the external style sheet is loaded.
+- While implementing style sheets, we need to test Web pages with multiple browsers in order to check compatibility issues.
+
+Q-17 What is the meaning of the CSS selector?
+Ans: - CSS selectors are used to select the content you want to style. Selectors are the part of CSS rule set. CSS selectors select HTML elements according to its id, class, type, attribute etc
+A CSS selector is the first part of CSS rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them,
+
+Q-18 What are the media type allowed by CSS?
+Ans: - The following media groups: continuous or paged. visual, audio, speech, or tactile. grid (for character grid devices), or bitmap.
+
+Q-19 What is rule set?
+ Ans: - Each (valid) declaration block is preceded by one or more comma-separated selectors, which are conditions selecting some elements of the page. A selector group and an associated declarations block, together, are called a ruleset, or often a rule.
+A collection of rules or signatures that network traffic or system activity is compared against to determine an action to take such as forwarding or rejecting a packet, creating an alert, or allowing a system event.
+
